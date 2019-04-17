@@ -20,6 +20,7 @@
     <logger name="com.lightbend.lagom" level="INFO" />
 
     <logger name="com.zaxxer.hikari.pool.HikariPool" level="debug"/>
+    <logger name="com.microsoft" level="debug"/>
 
     <root level="INFO">
         <appender-ref ref="STDOUT" />

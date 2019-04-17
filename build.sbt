@@ -22,7 +22,7 @@ lazy val `hello-impl` = (project in file("hello-impl"))
   .settings(
     libraryDependencies ++= Seq(
       lagomJavadslPersistenceJdbc,
-      "org.postgresql" % "postgresql" % "9.4.1212",
+      "com.microsoft.sqlserver" % "mssql-jdbc" % "7.2.1.jre8",
       lagomJavadslKafkaBroker,
       lagomLogback,
       lagomJavadslTestKit,
